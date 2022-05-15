@@ -9,7 +9,7 @@
     "packages/@m7yue/*"
   ],
   "useWorkspaces": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "command": {
     "version": {
       "allowBranch": "main"
