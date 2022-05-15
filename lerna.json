@@ -9,8 +9,11 @@
     "packages/@m7yue/*"
   ],
   "useWorkspaces": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "command": {
+    "version": {
+      "allowBranch": "main"
+    },
     "bootstrap": {
       "hoist": true,
       "strict": false,
