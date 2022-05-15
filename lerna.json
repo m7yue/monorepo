@@ -12,7 +12,8 @@
   "version": "0.0.5",
   "command": {
     "version": {
-      "allowBranch": "main"
+      "allowBranch": "main",
+      "message": "chore(release): publish %s"
     },
     "bootstrap": {
       "hoist": true,
