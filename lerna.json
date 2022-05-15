@@ -1,0 +1,27 @@
+{
+  "npmClient": "npm",
+  "npmClientArgs" : [ "--production" , "--no-optional" ],
+  "packages": [
+    "packages/*",
+    "packages/@m7yue/*"
+  ],
+  "useWorkspaces": false,
+  "version": "0.0.0",
+  "command": {
+    "bootstrap": {
+      "hoist": true,
+      "strict": false,
+      "nohoist": "vue",
+      "ignore": ["@7yue/project-b"],
+      "ignoreScripts": true,
+      "forceLocal": true
+    },
+    "link": {
+      "forceLocale": false
+    }
+  },
+  "run": {
+    "npmClient": "npm",
+    "noBail": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@7yue/module-a",
+  "version": "1.0.0",
+  "description": "",
+  "private":"true",
+  "main": "index.js",
+  "publishConfig": {
+    "directory": "lib"
+  },
+  "scripts": {
+    "prepublish": "node ./prepublish.js",
+    "prepare": "node ./prepare.js",
+    "prestart": "node ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lwang56",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.25.0",
+    "rxjs": "6.6.6",
+    "vue": "^4.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.5.10"
+  }
+}
