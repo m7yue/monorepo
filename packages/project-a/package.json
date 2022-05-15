@@ -1,0 +1,12 @@
+{
+	"name": "@7yue/project-a",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"keywords": [],
+	"author": "lwang56",
+	"license": "ISC",
+	"dependencies": {
+		"vue": "^3.2.33"
+	}
+}
