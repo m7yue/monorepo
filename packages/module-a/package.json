@@ -1,6 +1,6 @@
 {
   "name": "@7yue/module-a",
-  "version": "0.0.9",
+  "version": "0.0.8",
   "description": "",
   "private": "true",
   "main": "index.js",
@@ -19,7 +19,7 @@
   "dependencies": {
     "date-fns": "^2.25.0",
     "rxjs": "6.6.6",
-    "vue": "^0.0.7"
+    "vue": "^0.0.8"
   },
   "devDependencies": {
     "vite": "^2.5.10"
