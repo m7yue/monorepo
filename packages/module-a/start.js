@@ -1,7 +1,6 @@
 console.log('================start===================')
 console.log('new version')
 console.log('new version 2')
-console.log('new version 3')
 console.log('new version 4')
 console.log('--no-git-tag-version')
 console.log('independent mode')
